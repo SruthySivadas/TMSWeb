@@ -1,0 +1,37 @@
+.mui-report-grid-odd-row {
+    background-color: #f0f4fa;
+  }
+  
+  .mui-report-grid-even-row {
+    background-color: #fafafa;
+  }
+  
+  .mui-report-grid-header {
+    /* background-color: rgb(239 235 235); */
+    /* background-color: #2771a3; */
+    background-color: var(--primary);
+    color: #fff;
+    font-weight: bold;
+    text-align: center !important;
+  }
+  
+  .mui-report-grid-row {
+    margin: 3px;
+    border: 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(130, 130, 189, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .employee-Modal {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50vh;
+    background-color: var(--commonText);
+    border: 2px solid var(--label);
+    box-shadow: 24;
+    /* padding: 15px; */
+  }
+  

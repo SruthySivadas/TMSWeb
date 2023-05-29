@@ -1,0 +1,64 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--bg-color-form);
+}
+
+.login-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.login-btn {
+  text-align: center;
+}
+
+.login-label-font {
+  color: var(--primary);
+  font-size: var(----label-Font);
+  /* font-weight: bold; */
+}
+
+.login-error {
+  text-align: center;
+  color: var(--danger);
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+.logintitle {
+  color: var(--commonText);
+  text-align: center;
+  background-color: var(--primary);
+  padding: 36px 6px;
+  border-radius: 10px 10px 0px 0px;
+  /* font-weight: bold; */
+}
+
+.login-form-bg {
+  background: var(--commonText);
+  border-radius: 10px;
+  padding: 0px 0px 43px 0px;
+  width: 30%;
+}
+
+.btn-login,
+.btn-login:hover {
+  background-color: var(--primary);
+  color: var(--commonText);
+}
+
+@media screen and (max-width: 800px) {
+  .login-form-bg {
+    background: var(--commonText);
+    border-radius: 10px;
+    padding: 0px 0px 43px 0px;
+    width: 77%;
+  }
+}

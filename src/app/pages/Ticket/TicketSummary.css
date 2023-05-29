@@ -1,0 +1,36 @@
+.ticket-card {
+    border-left: 6px solid var(--primary) !important;
+    border-top: 1px solid var(--card-border) !important;
+    border-bottom: 1px solid var(--card-border) !important;
+    border-right: 1px solid var(--card-border) !important;
+    /* border-radius: 10px 8px 8px 10px; */
+    padding: 10px !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .ticket-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+  }
+
+  .ticket-Modal-title {
+    background-color: var(--primary);
+    color: var(--commonText);
+    align-items: center;
+    padding: 10px 10px;
+    font-weight: 500;
+  }
+
+  .model-employee-ticket-detail {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 60vh;
+    background-color: var(--commonText);
+    border: 2px solid var(--label);
+    box-shadow: 24;
+    /* padding: 15px; */
+  }
+  

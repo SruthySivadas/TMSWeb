@@ -1,0 +1,30 @@
+.tablehead th {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.tablerow tr {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.GCTABLE {
+  overflow-x: scroll;
+}
+.item-search {
+  background-color: var(--primary);
+  color: var(--commonText);
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  font-size: var(--laptop-font);
+}
+.gnr-item-search-label {
+  font-size: var(--laptop-font);
+  color: var(--primary);
+}
+.search-btn {
+  background-color: var(--primary);
+}

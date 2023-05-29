@@ -1,0 +1,162 @@
+.CmpDatePickerField .css-hdw1oc {
+  display: none;
+}
+
+.CmpDatePickerField.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+.CmpDatePickerField .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 11px 0px 6px 10px !important;
+}
+
+.CmpTimePickerField .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 11px 0px 6px 10px !important;
+}
+
+.CmpDatePickerField .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  top: 0 !important;
+}
+
+.CmpInputFieldGroup {
+  display: flex;
+}
+
+button.CmpInputFieldGroup-icon {
+  min-width: 30px !important;
+  padding: 0px;
+}
+
+.typograpgy-font,
+.CmpCheckboxField,
+.InputFont {
+  font-size: var(--laptop-font) !important;
+  color: var(--primary);
+}
+
+.CmpCheckboxField .css-sstfxf-MuiButtonBase-root-MuiCheckbox-root {
+  padding: 0px 9px;
+}
+
+.CmpCheckboxField .css-j204z7-MuiFormControlLabel-root {
+  justify-content: center;
+}
+
+.CmpInputFieldGroup .css-3f055z-MuiButtonBase-root-MuiButton-root {
+  border: 1px solid var(--tertiary);
+  color: var(--tertiary);
+}
+
+.disable-color {
+  background-color: var(--disable);
+  opacity: 1;
+}
+
+button.btn-text-transform-none {
+  text-transform: none;
+  font-size: var(--laptop-font);
+}
+.txt-overflow-ellipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.typograpgy-font,
+.CmpCheckboxField,
+.inputfont,
+button.btn-text-transform-none {
+  font-size: var(--laptop-lg-font) !important;
+}
+.MultiSelect .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 6.5px 14px;
+}
+
+@media screen and (max-width: 1200px) {
+  .typograpgy-font,
+  .CmpCheckboxField,
+  .inputfont,
+  button.btn-text-transform-none {
+    font-size: var(--laptop-font) !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .typograpgy-font {
+    font-size: var(--tab-font) !important;
+    color: var(--primary);
+  }
+
+  .CmpDatePickerField .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    /* padding: 10.5px 14px; */
+    padding: 13px 0px 5px 7px;
+  }
+  .typograpgy-font,
+  .CmpCheckboxField,
+  .inputfont,
+  button.btn-text-transform-none {
+    font-size: var(--tab-font) !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .typograpgy-font {
+    font-size: var(--mobile-font) !important;
+    color: var(--primary);
+  }
+
+  .CmpDatePickerField .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    /* padding: 10.5px 14px; */
+    padding: 13px 0px 5px 2px;
+  }
+  .typograpgy-font,
+  .CmpCheckboxField,
+  .inputfont,
+  button.btn-text-transform-none {
+    font-size: var(--mobile-font) !important;
+  }
+}
+
+.mui-grid-font-color1 {
+  color: rgb(19, 161, 50);
+}
+
+.mui-grid-font-color2 {
+  color: rgb(213, 13, 13) !important;
+}
+
+.status_div {
+  height: 3rem;
+  width: 8rem;
+  border: 1px solid green;
+  color: green;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+}
+
+.status_div1 {
+  height: 2rem;
+  width: 6rem;
+  border: 2px solid green;
+  border-left: none;
+  color: green;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+  left: 5px;
+  z-index: -1;
+}
+
+.total-menu {
+  height: 2rem;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+}
